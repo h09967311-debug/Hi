@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "rdpfree-6",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
@@ -41,10 +41,11 @@
   "akses": {
     "tailscale": {
       "status": "ok",
-      "hostname": "rdpfree-6",
-      "magicdns": "rdpfree-6.tail7e148d.ts.net.",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "100.113.182.55"
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     },
     "mode": "tailscale"
   },
@@ -53,5 +54,45 @@
     "audio_output": "rdp_playback_enabled",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "microphone": "disabled"
-  }
+  },
+  "samp": {
+    "netfx3": "Enabled",
+    "directplay": "Enabled",
+    "gta_installed": false,
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "directx": "verified_x86_x64",
+    "status": "dependencies_ready",
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "samp_installed": false,
+    "play_tested": false
+  },
+  "game_environment": {
+    "windows_server": true,
+    "os": "Microsoft Windows Server 2025 Datacenter",
+    "play_tested": false,
+    "hypervisor_present": true,
+    "runner": "windows-2025"
+  },
+  "games": {
+    "roblox": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    },
+    "minecraft_bedrock": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    },
+    "minecraft_java": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    },
+    "samp": {
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+      "gta_installed": false,
+      "game_dir": null,
+      "samp_installed": false,
+      "status": "dependencies_ready"
+    }
+  },
+  "stopped_at": "2026-10-13T15:21:43Z"
 }
