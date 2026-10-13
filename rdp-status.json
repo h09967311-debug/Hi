@@ -1,6 +1,6 @@
 {
-  "active": false,
-  "hostname": "rdpfree-5",
+  "active": true,
+  "hostname": "rdpfree-6",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
   "os_style": "Native Windows",
@@ -13,13 +13,13 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-13T15:10:43Z",
-  "expires_at": "2026-10-13T21:05:43Z",
+  "started_at": "2026-10-13T15:15:39Z",
+  "expires_at": "2026-10-13T21:10:39Z",
   "duration_menit": 355,
-  "run_id": "38419758263",
+  "run_id": "38420472161",
   "run_attempt": "1",
-  "run_number": "5",
-  "run_url": "https://github.com/h09967311-debug/Hi/actions/runs/38419758263",
+  "run_number": "6",
+  "run_url": "https://github.com/h09967311-debug/Hi/actions/runs/38420472161",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -40,14 +40,18 @@
   },
   "akses": {
     "tailscale": {
-      "status": "failed",
-      "note": "Tailscale menolak koneksi. Periksa masa berlaku auth key dan persetujuan perangkat di tailnet.",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
+      "status": "ok",
+      "hostname": "rdpfree-6",
+      "magicdns": "rdpfree-6.tail7e148d.ts.net.",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "ip": "100.113.182.55"
     },
     "mode": "tailscale"
   },
-  "stopped_at": "2026-10-13T15:10:54Z"
+  "media": {
+    "wallpaper": "xyverse_configured_for_user_logon",
+    "audio_output": "rdp_playback_enabled",
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
+    "microphone": "disabled"
+  }
 }
