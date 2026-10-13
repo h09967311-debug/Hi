@@ -1,6 +1,6 @@
 {
   "active": false,
-  "hostname": "rdpfree-2",
+  "hostname": "rdpfree-3",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
   "os_style": "Native Windows",
@@ -13,13 +13,13 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-13T14:55:04Z",
-  "expires_at": "2026-10-13T20:50:04Z",
+  "started_at": "2026-10-13T14:56:53Z",
+  "expires_at": "2026-10-13T20:51:53Z",
   "duration_menit": 355,
-  "run_id": "38417457162",
+  "run_id": "38417718068",
   "run_attempt": "1",
-  "run_number": "2",
-  "run_url": "https://github.com/h09967311-debug/Hi/actions/runs/38417457162",
+  "run_number": "3",
+  "run_url": "https://github.com/h09967311-debug/Hi/actions/runs/38417718068",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -39,15 +39,15 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
-      "status": "failed",
       "note": "Tailscale menolak koneksi. Periksa masa berlaku auth key dan persetujuan perangkat di tailnet.",
+      "status": "failed",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
-    }
+    },
+    "mode": "tailscale"
   },
-  "stopped_at": "2026-10-13T14:55:18Z"
+  "stopped_at": "2026-10-13T14:57:09Z"
 }
